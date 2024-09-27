@@ -1,0 +1,113 @@
+body {
+	font-family: "Happy Monkey", system-ui;
+	border: 6px solid #fff;
+	border-radius: 10px;
+}
+
+.header {
+	height: 400px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(capetown.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-title {
+	background-color: lightblue;
+	text-transform: uppercase;
+	font-size: 70px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+.subtitle {
+	background-color: darkblue;
+	padding: 10px 20px;
+}
+
+
+.activities-section {
+	text-align: center;
+	color: darkblue;
+}
+.activities-wrap {
+	display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.activities-card {
+	flex: 0 0 28.33%;
+}
+
+.activities-img {
+	height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.activities-name {
+	color: darkblue;
+}
+.activities-description {
+	font-size: 14px;
+}
+.guide-wrap {
+	background-color: lightblue;
+	display: flex;
+	padding: 10px 30px;
+	border-bottom: 10px solid darkblue;
+	max-width: 500px;
+	margin: 50px auto;
+	color: darkblue;
+}
+
+.guide-img {
+	width: 100%;
+	max-width: 200px;
+}
+.guide-description {
+	font-style: italic;
+}
+.detail {
+	padding-left: 30px;
+}
+
+.guide-name {
+	font-size: 18px;
+}
+.guide-title {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.place-visited {
+	text-align: center;
+	margin: 50px 0;
+}
+
+input {
+	display: block;
+	padding: 8px 20px;
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+button {
+	font-family: inherit;
+	border: 0;
+	border-radius: 4px;
+	padding: 16px 30px;
+	font-size: 16px;
+	color: #fff;
+	background-color: darkblue;
+}
+button:hover {
+	color: #000;
+	background-color: lightblue;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>Katshi - Hometown Homepage</title>
+</head>
+<body>
+	<div class="header">
+		<h1 class="main-title">Visit Cape Town</h1>
+		<p class="subtitle">Enjoy your time in the mother city</p>
+	</div>
+	<div class="activities-section">
+		<h2>Top three activities to do in the Mother City</h2>
+		<div class="activities-wrap">
+			<div class="activities-card">
+				<img class="activities-img" src="cablecar.jpg" alt="Table Mountain" />
+				<h3 class="activities-name">Table Mountain</h3>
+				<p class="activities-description">
+					Planning a trip to visit Table Mountain is exciting, educational and can also be relaxing at the top.
+				</p>
+			</div>
+			<div class="activities-card">
+				<img class="activities-img" src="beach.jpg" alt="Camps Bay Beach" />
+				<h3 class="activities-name">Camps Bay Beach</h3>
+				<p class="activities-description">
+					Glen Beach, at the far right of Camps Bay beach, is known as Camps Bay's best surfing beach.
+				</p>
+			</div>
+			<div class="activities-card">
+				<img class="activities-img" src="winefarm.jpg" alt="Wine Routes" />
+				<h3 class="activities-name">Wine Routes</h3>
+				<p class="activities-description">
+					We offer guests gourmet picnics and charcuterie platters in a tranquil, relaxed setting on the lawns by the trees of our forest courtyard.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper guide-wrap">
+		<img class="guide-img" src="katshi.png" alt="Katshi Front End Developer" />
+		<div class="detail guide-details">
+			<h3 class="position guide-title">Your guide</h3>
+			<p class="location guide-description">I have lived in Cape Town for over 20 years. So I can show you all of its best parts.</p>
+			<h2 class="title guide-name">Katshi Mutombo</h2>
+		</div>
+	</div>
+
+	<div class="place-visited">
+		<p>Total of the last 5 visited places: <span id="total"></span> </p>
+		<input id="number" />
+		<button id="add_number">Add value</button>
+	</div>	
+	<script src="single.js"></script>
+</body>
+</html>
