@@ -1,4 +1,4 @@
-#Visit Cape Town: The Mother City
+##Visit Cape Town: The Mother City
 Visit Cape Town Website project! This project is a significant milestone in my journey of becoming a Developer, created during the Intro to Digital (ITD) course by CodeYourFuture.
 
 Project Overview
